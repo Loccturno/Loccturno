@@ -57,7 +57,8 @@ More in the repository list below ↓
 ## Tech stack
 
 `Solidity` · `Circom` · `JavaScript` · `Remix` · `Git` · `MetaMask`  
-**ZK concepts**: SNARKs, Groth16 verifiers, Poseidon, Merkle trees, nullifiers  
+**ZK & elliptic curve cryptography**: SNARKs, Groth16 verifiers, elliptic curves, pairings, Poseidon, Merkle trees, nullifiers, ECDSA  
+**Cryptography foundations**: RSA, Diffie-Hellman, AES (Cryptopals)  
 **On-chain analysis**: Etherscan deep dives, transaction tracing, scam pattern recognition
 
 ## Reading
