@@ -1,4 +1,4 @@
-# loccturno
+# Loccturno
 
 Solo learner working toward a freelance career in **ZK & smart contract auditing**.
 
