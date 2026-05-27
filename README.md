@@ -2,8 +2,7 @@
 
 Solo learner working toward a freelance career in **ZK & smart contract auditing**.
 
-By day, I operate forklifts in a steel wholesale warehouse in Crete.  
-By night, I read circuits, hunt bugs, and write audit reports.
+Background outside tech, transitioning into security through deep self-study. By night, I read circuits, hunt bugs, and write audit reports. 
 
 ## Origin
 
@@ -87,4 +86,4 @@ More in the repository list below ↓
 
 ---
 
-*Crete, Greece. Pseudonymous by choice. Started writing code in early 2026 — building toward auditor work the long way: deeply, openly, one bug at a time.*
+*Greece. Pseudonymous by choice. Started writing code in early 2026 — building toward auditor work the long way: deeply, openly, one bug at a time.*
