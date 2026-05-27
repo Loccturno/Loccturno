@@ -1,6 +1,6 @@
 # Loccturno
 
-Solo learner working toward a freelance career in **ZK & smart contract auditing**.
+Self-directed researcher in ZK & smart contract auditing. Currently building portfolio depth through hands-on exploit reproduction and circuit analysis.
 
 Background outside tech, transitioning into security through deep self-study. By night, I read circuits, hunt bugs, and write audit reports. 
 
@@ -51,11 +51,21 @@ The "tax sandwich" front-running pattern in ERC20 tokens, plus a tour of
 unrestricted owner privileges that turn legitimate-looking projects into 
 rug pulls.
 
+### [zk-multi-layer-exploit](https://github.com/Loccturno/zk-multi-layer-exploit)
+Three composable ZK bugs across the circuit and Solidity integration layer:
+underconstrained Poseidon commitment, dead Merkle public input, and unbound
+recipient. Foundry test suite demonstrates how an attacker drains a vault
+from thin air, and how a front-runner hijacks a legitimate proof.
+
+### [zk-underflow-exploit](https://github.com/Loccturno/zk-underflow-exploit)
+End-to-end PoC of a finite-field underflow accepted by a Groth16 verifier
+both off-chain (snarkjs) and on-chain (Solidity verifier). Vulnerable
+circuit, exploit, and fixed version with one-line proof of repair.
 More in the repository list below ↓
 
 ## Tech stack
 
-`Solidity` · `Circom` · `JavaScript` · `Remix` · `Git` · `MetaMask`  
+`Solidity` · `Circom` · `JavaScript` · `Remix` · `Git` · `Foundry`  
 **ZK & elliptic curve cryptography**: SNARKs, Groth16 verifiers, elliptic curves, pairings, Poseidon, Merkle trees, nullifiers, ECDSA  
 **Cryptography foundations**: RSA, Diffie-Hellman, AES (Cryptopals)  
 **On-chain analysis**: Etherscan deep dives, transaction tracing, scam pattern recognition
@@ -66,10 +76,11 @@ More in the repository list below ↓
 - *The Code Book* — Simon Singh (the one that started it all, twice)
 - *Fermat's Last Theorem* — Simon Singh
 - *Ghost in the Wires* — Kevin Mitnick
+- *Sandworm* — Andy Greenberg
 
 **Currently reading**
 - *Quantum Theory Cannot Hurt You* — Marcus Chown
-- *Sandworm* — Andy Greenberg
+- *Man from the Future* — Ananyo Bhattacharya
 - *Future Crimes* — Marc Goodman
 - *Mastering Ethereum* — Andreas Antonopoulos
 
@@ -81,7 +92,7 @@ More in the repository list below ↓
 
 ## Contact
 
-- **Contact**: Reach out via GitHub: open an issue or use the discussion tab. No email until I move into paid client work
+- **Contact**: GitHub issues or discussions
 - **Open to**: ZK circuit audits, smart contract audits, paid learning collaborations, mentorship from senior auditors
 
 ---
