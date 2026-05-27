@@ -81,7 +81,7 @@ More in the repository list below ↓
 
 ## Contact
 
-- **Email**: loccturno@protonmail.com
+- **Contact**: Reach out via GitHub: open an issue or use the discussion tab. No email until I move into paid client work
 - **Open to**: ZK circuit audits, smart contract audits, paid learning collaborations, mentorship from senior auditors
 
 ---
