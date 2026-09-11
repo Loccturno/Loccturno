@@ -4,6 +4,8 @@ Self-directed researcher in ZK & smart contract auditing. Currently building por
 
 Background outside tech, transitioning into security through deep self-study. By night, I read circuits, hunt bugs, and write audit reports. 
 
+**Writeups:** [loccturno.github.io](https://loccturno.github.io)
+
 ## Origin
 
 In 2003, when I was 13, I read Simon Singh's *The Code Book*. I drew a 
@@ -93,8 +95,8 @@ More in the repository list below ↓
 ## Contact
 
 - **Contact**: GitHub issues or discussions
-- **Open to**: ZK circuit audits, smart contract audits, paid learning collaborations, mentorship from senior auditors
+- **Open to**: ZK circuit audits, smart contract audits, paid learning collaborations
 
 ---
 
-*Greece. Pseudonymous by choice. Started writing code in early 2026 — building toward auditor work the long way: deeply, openly, one bug at a time.*
+*Greece. Pseudonymous by choice. Building toward auditor work the long way: deeply, openly, one bug at a time.*
