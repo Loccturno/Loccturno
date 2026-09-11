@@ -1,99 +1,101 @@
 # Loccturno
-
+ 
 Self-directed researcher in ZK & smart contract auditing. Currently building portfolio depth through hands-on exploit reproduction and circuit analysis.
-
-Background outside tech, transitioning into security through deep self-study. By night, I read circuits, hunt bugs, and write audit reports. 
-
+ 
+Background outside tech, transitioning into security through deep self-study. By night, I read circuits, hunt bugs, and write audit reports.
+ 
 **Writeups:** [loccturno.github.io](https://loccturno.github.io)
-
+ 
 ## Origin
-
+ 
 In 2003, when I was 13, I read Simon Singh's *The Code Book*. I drew a 
 Vigenère tableau and taped it to my closet door, and went around telling 
 anyone who would listen — teachers, friends, parents — that cryptography 
 was essential for human freedom, privacy, and the survival of the human 
 spirit.
-
+ 
 The grown-ups told me to focus on schoolwork.
-
+ 
 Twenty-three years later, by complete coincidence, a friend gave me the 
 same book as a gift. I had forgotten the title; opening it brought back 
 the closet door, the cipher tableau, the convictions. By that point I 
 had already been a Bitcoiner for four years.
-
+ 
 The career change wasn't a decision. It was a recognition.
-
+ 
 ## Currently learning
-
+ 
 - **Solidity** — writing contracts from scratch, reading auditing reports, breaking my own code
 - **Circom + ZK circuits** — Poseidon, Merkle membership proofs, nullifiers, underconstrained-signal patterns
 - **Smart contract auditing** — severity classification, professional report writing, hands-on exploit reproduction
 - **DeFi attack vectors** — reentrancy (single-function, cross-function, read-only), oracle manipulation, approval phishing, governance attacks
-
 ## Featured projects
-
-### [lending-protocol-audit](https://github.com/Loccturno/lending-protocol-audit)
-Full end-to-end audit project. Vulnerable lending protocol with uncollateralized 
-borrowing exploit, hands-on PoC with transaction hashes from Remix VM, fixed 
-version, and a professional audit report (Severity / Description / Impact / Fix). 
-My first complete portfolio piece.
-
-### [reentrancy-classic-vault](https://github.com/Loccturno/reentrancy-classic-vault)
-Hands-on reentrancy lab recreating the DAO-style bug. Vulnerable `EtherVault`, 
-working `Attacker` contract that drains it, fixed version with CEI ordering + 
-ReentrancyGuard, plus a 12-step state-by-state attack walkthrough.
-
-### [approval-phishing-analysis](https://github.com/Loccturno/approval-phishing-analysis)
-Breakdown of an approval phishing scam token pattern observed in the wild. 
-What the contract does, how the drain works, and why revoking approvals 
-matters more than people think.
-
-### [tax-manipulation-scam-analysis](https://github.com/Loccturno/tax-manipulation-scam-analysis)
-The "tax sandwich" front-running pattern in ERC20 tokens, plus a tour of 
-unrestricted owner privileges that turn legitimate-looking projects into 
-rug pulls.
-
+ 
 ### [zk-multi-layer-exploit](https://github.com/Loccturno/zk-multi-layer-exploit)
 Three composable ZK bugs across the circuit and Solidity integration layer:
 underconstrained Poseidon commitment, dead Merkle public input, and unbound
 recipient. Foundry test suite demonstrates how an attacker drains a vault
 from thin air, and how a front-runner hijacks a legitimate proof.
-
+ 
 ### [zk-underflow-exploit](https://github.com/Loccturno/zk-underflow-exploit)
 End-to-end PoC of a finite-field underflow accepted by a Groth16 verifier
 both off-chain (snarkjs) and on-chain (Solidity verifier). Vulnerable
 circuit, exploit, and fixed version with one-line proof of repair.
+ 
+### [raisebox-faucet-audit](https://github.com/Loccturno/raisebox-faucet-audit)
+Cold audit of an unfamiliar codebase — no prior knowledge of the bugs.
+Findings written up with severity, plus a working Foundry PoC for a
+denial-of-service that permanently locks the faucet.
+ 
+### [lending-protocol-audit](https://github.com/Loccturno/lending-protocol-audit)
+Full end-to-end audit project. Vulnerable lending protocol with uncollateralized 
+borrowing exploit, hands-on PoC with transaction hashes from Remix VM, fixed 
+version, and a professional audit report (Severity / Description / Impact / Fix). 
+My first complete portfolio piece.
+ 
+### [reentrancy-classic-vault](https://github.com/Loccturno/reentrancy-classic-vault)
+Hands-on reentrancy lab recreating the DAO-style bug. Vulnerable `EtherVault`, 
+working `Attacker` contract that drains it, fixed version with CEI ordering + 
+ReentrancyGuard, plus a 12-step state-by-state attack walkthrough.
+ 
+### [approval-phishing-analysis](https://github.com/Loccturno/approval-phishing-analysis)
+Breakdown of an approval phishing scam token pattern observed in the wild. 
+What the contract does, how the drain works, and why revoking approvals 
+matters more than people think.
+ 
+### [tax-manipulation-scam-analysis](https://github.com/Loccturno/tax-manipulation-scam-analysis)
+The "tax sandwich" front-running pattern in ERC20 tokens, plus a tour of 
+unrestricted owner privileges that turn legitimate-looking projects into 
+rug pulls.
+ 
 More in the repository list below ↓
-
+ 
 ## Tech stack
-
-`Solidity` · `Circom` · `JavaScript` · `Remix` · `Git` · `Foundry`  
+ 
+`Solidity` · `Circom` · `Noir` · `JavaScript` · `Remix` · `Git` · `Foundry`  
 **ZK & elliptic curve cryptography**: SNARKs, Groth16 verifiers, elliptic curves, pairings, Poseidon, Merkle trees, nullifiers, ECDSA  
 **Cryptography foundations**: RSA, Diffie-Hellman, AES (Cryptopals)  
 **On-chain analysis**: Etherscan deep dives, transaction tracing, scam pattern recognition
-
+ 
 ## Reading
-
+ 
 **Read**
 - *The Code Book* — Simon Singh (the one that started it all, twice)
 - *Fermat's Last Theorem* — Simon Singh
 - *Ghost in the Wires* — Kevin Mitnick
 - *Sandworm* — Andy Greenberg
-
 **Currently reading**
 - *Quantum Theory Cannot Hurt You* — Marcus Chown
 - *Man from the Future* — Ananyo Bhattacharya
 - *Future Crimes* — Marc Goodman
 - *Mastering Ethereum* — Andreas Antonopoulos
-
 **In queue**
 - *Dark Wire* — Joseph Cox
 - *Ctrl+Alt+Chaos* — Joe Tidy
 - *Handsome Devil* — Jeff Maysh
 - *Aggressive Network Self-Defense* — Neil Wyler
-
 ## Contact
-
+ 
 - **Contact**: GitHub issues or discussions
 - **Open to**: ZK circuit audits, smart contract audits, paid learning collaborations
 
